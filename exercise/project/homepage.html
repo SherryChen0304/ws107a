@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="drop_list_search.css"/>      
+</head>
+
+<body background="background.jpg">
+<!-- 站名 -->
+    <div href="#Home" onclick="ui.show(page.home)"><img src="header.png" width="784" height="73" style="display:block; margin:0"></div>
+<!-- 下拉式選單-->
+    <ul class="x">
+        <div class="dropdown"  style="float:left">
+            <a1>關於</a1>
+            <div class="dropdown-content">
+                    <a1 href="#Webmaster" onclick="ui.show(page.webmaster);showChart()">網站管理員</a1>
+                    <a1 href="#Purpose" onclick="ui.show(page.purpose)">創站動機</a1>
+            </div>
+        </div>
+        <li><a1 href="#Character" onclick="ui.show(page.character)">個性測驗</a1></li>
+        <li><a1 href="#Interesting" onclick="ui.show(page.interesting)">趣味測驗</a1></li>
+        <li><a1 href="#Love" onclick="ui.show(page.love)">愛情測驗</a1></li>
+        <!-- <div class="dropdown" style="float:left">
+            <a1>分享小事</a1>
+            <div class="dropdown-content">
+                    <a1 href="#Story" onclick="ui.show(page.story)">小故事</a1>
+                    <a1 href="#Emotion" onclick="ui.show(page.emotion)">心情物語</a1>
+                    <a1 href="#Encoutage" onclick="ui.show(page.encourage)">勵志小語</a1>
+            </div>
+        </div> -->
+        <div class="dropdown" style="float:right">
+            <a1>使用者</a1>
+            <div class="dropdown-content">
+                <a1 href="#Login" onclick="ui.show(page.login)">登入</a1>
+                <a1 href="#Logout" onclick="ui.show(page.logout)">登出</a1>
+                <a1 href="#Signin" onclick="ui.show(page.signin)">註冊</a1>
+            </div>
+        </div>
+        <div style="float:right">
+            <form>
+                <input type="search" name="search" placeholder="Search..">
+            </form>
+        </div>
+    </ul>
+    <div id="main"></div>
+    
+    <script src="pages.js"></script>
+    <script src="ui.js"></script>
+    <!--<script src="main.js"></script>-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="highcharts.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+</body>
+</html>

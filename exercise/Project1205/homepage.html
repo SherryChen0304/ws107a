@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="drop_list_search.css"/>      
+</head>
+
+<body background="background.jpg">
+<!-- 站名 -->
+    <div><img src="header.png" width="784" height="73" style="display:block; margin:0"></div>
+<!-- 下拉式選單-->
+<ul class="x">
+    <div class="dropdown" style="float:left">
+        <a1>分享小事</a1>
+        <div class="dropdown-content">
+                <a1 href="#Story" onclick="ui.show(page.story)">小故事</a1>
+        </div>
+    </div>
+    <div class="dropdown" style="float:right">
+        <a1>使用者</a1>
+        <div class="dropdown-content">
+            <a1 href="#Login" onclick="ui.show(page.login)">登入</a1>
+            <a1 href="#Logout" onclick="ui.show(page.logout)">登出</a1>
+            <a1 href="#Signin" onclick="ui.show(page.signin)">註冊</a1>
+        </div>
+    </div>
+</ul>
