@@ -39,7 +39,7 @@ async function login (ctx) {
     ctx.redirect(`/${passport.user}/posts`)
   } else {
     ctx.status = 401
-    ctx.body = '登入失敗！'
+    ctx.body = '登入失敗'
   }
 }
 

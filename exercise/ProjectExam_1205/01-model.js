@@ -10,14 +10,14 @@ const db = {
       posts: [
         {id: 0, title: 'G1', body: 'hello'},
         {id: 1, title: 'G2', body: 'My name judy.'},
-        {id: 2, title: 'G3', body: 'I am 9 years old.'}
+        {id: 2, title: 'G3', body: 'I am 5 years old.'}
       ]
     },
     boy: {
       posts: [
         {id: 0, title: 'B1', body: 'hello'},
         {id: 1, title: 'B2', body: 'My name jack.'},
-        {id: 2, title: 'B3', body: 'I am 12 years old.'},
+        {id: 2, title: 'B3', body: 'I am 18 years old.'},
       ]
     }
   }

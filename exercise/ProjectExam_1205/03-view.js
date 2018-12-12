@@ -106,7 +106,7 @@ V.listPosts = function (user, posts) {
 
   let content = `
   <p><a href="/${user}/post/new"><button>創建新貼文</button></a></p>
-  <p>您總共有 <strong>${count}</strong> 則貼文!</p>
+  <p>您總共有 <strong>${count}</strong> 則貼文</p>
   <ul id="posts">
     ${list.join('\n')}
   </ul>
